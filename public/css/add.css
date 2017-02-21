@@ -1,0 +1,18 @@
+#question-text {
+	width: 350px;
+	height: 16px;
+}
+
+.form {
+	width: 700px;
+	text-align: center;
+	margin: auto;
+	padding-top: 20px;
+}
+
+input[type=text] {
+	background-image: url('http://icons.iconarchive.com/icons/icons8/windows-8/512/Computer-Hardware-Keyboard-2-icon.png');
+	background-size: 16px 16px; 
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}

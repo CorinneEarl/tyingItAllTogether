@@ -1,0 +1,66 @@
+
+.headerContainer {
+	height: 8em;
+    position: relative;
+}
+
+.headerContainer h1 {
+	color: #fff;
+	font-family: 'Play', sans-serif;
+	font-size: 36px;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px black;
+    /*text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67); */
+}
+
+header {
+	/*background: linear-gradient(25deg, #00d3d6, #fa5aa5);*/
+	/*background-image: url('http://blog.benoitvallon.com/img/2016-03-12-sorting-algorithms-in-javascript-all-the-code/post-sorting-algorithms-in-javascript-all-the-code.jpg');*/
+	background-image: url('http://2.bp.blogspot.com/-PEsedSbB8i4/VXAFPTSp3VI/AAAAAAAAAc0/UxEf7dxsIVg/s640/coding%2Bin%2Bschools.jpg');
+	height: 100px;
+	width: 700px;
+	text-align: center;
+	margin: auto;
+}
+
+body {
+	background-color: #fff;
+}
+
+.questions{
+	padding: 12px 20px 5px 25px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.vote{
+	margin: 5px;
+	background-color: #00508E;
+	border-radius: 5px;
+	color: white;
+	font-family: 'Play', sans-serif;
+}
+
+.mainContainer {
+	width: 700px;
+	height: 800px;
+	margin: auto;
+	background-color: #f2f2f2;
+}
+
+h2 {
+	padding: 20px 0px 0px 0px;
+	margin: 0px; 
+	text-align: center;
+	font-family: 'Rokkitt', serif;
+	font-size: 24px;
+}
+
+
+
+
+

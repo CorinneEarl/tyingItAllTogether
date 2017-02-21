@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/add.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Amiri|Play|Rokkitt|Titillium+Web" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.1.1.js"
+  			integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  			crossorigin="anonymous">
+  	</script>
+  	<script type="text/javascript" src="main.js"></script>
+	<title>Favorite Questions: Add</title>
+</head>
+<body>
+	<header class="headerContainer">
+		<h1>Favorite Javascript Questions Ever</h1>
+	</header>
+	<div class="mainContainer">
+		<h2>Add your question below:</h2>
+		<div class = "form">
+			<form action = "/api/questions" method = "post">
+				<input type = "text" id= "question-text" placeholder="Type your new question here."> 
+				<input type = "button" id = "submit-button" value = "Submit">  
+			</form>
+		</div>
+	</div>
+	
+</body>
+</html>
